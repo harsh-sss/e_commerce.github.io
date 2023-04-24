@@ -1,0 +1,161 @@
+.loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #333333;
+    transition: opacity 0.75s, visibility 2s;
+  }
+  
+  .loader--hidden {
+    opacity: 0;
+    visibility: hidden;
+  }
+  
+  .loader::after {
+    content: "";
+    width: 75px;
+    height: 75px;
+    border: 15px solid #dddddd;
+    border-top-color: #009578;
+    border-radius: 50%;
+    animation: loading 0.75s ease infinite;
+  }
+  
+  @keyframes loading {
+    from {
+      transform: rotate(0turn);
+    }
+    to {
+      transform: rotate(1turn);
+    }
+  }
+
+body{
+    
+    background-color:honeydew;
+}
+
+.section{
+    /* padding: 15px; */
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: none;
+    padding-top: 25px;
+}
+.section ul{
+    list-style-type: none;
+    overflow: hidden;
+
+}
+.section li{
+    float: left;
+    margin-right: 50px;
+    text-decoration: none;
+}
+.section li a{
+    text-decoration: none;
+    color: black;
+}
+
+.sec{
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: none;
+    /* padding-top: 15px; */
+    margin-top: 0px;
+}
+.sec ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+.sec li{
+    float: right;
+    margin-right: 50px;
+    text-decoration: none;
+}
+.sec li a{
+    text-decoration: none;
+    color: black;
+}
+
+.hero{
+    padding-top: 150px;
+}
+.sec2{
+    font-size: 30px;
+    
+    display: flex;
+    justify-content: center;
+    
+}
+.sec2 li a{
+    text-decoration: none;
+    color: black;
+}
+
+.sec2 ul{
+    list-style-type: none;
+}
+
+.sec2 li{
+    float:left;
+    margin: 50px;
+    
+    
+}
+
+#product1{
+    text-align: center;
+}
+
+#product1 .pro-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+
+#product1 .pro{
+    width: 23%;
+
+    min-width: 250px;
+    padding: 10px 12px;
+    
+    border: 1px solid #cce7d0;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    margin: 15px 0;
+    transition : 0.2s ease;
+}
+
+#product1 .pro:hover{
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+}
+
+#product1 .pro img{
+    width: 100%;
+    
+    border-radius: 20px;
+}
+
+#product1 .pro .des{
+    text-align: start;
+    padding: 10px 0;
+}
+
+#product1 .pro .des span{
+    color: #606063;
+    font-size: 12px;
+}
+
+.banner{
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    
+}

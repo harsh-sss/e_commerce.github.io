@@ -1,0 +1,116 @@
+.loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #333333;
+    transition: opacity 0.75s, visibility 2s;
+  }
+  
+  .loader--hidden {
+    opacity: 0;
+    visibility: hidden;
+  }
+  
+  .loader::after {
+    content: "";
+    width: 75px;
+    height: 75px;
+    border: 15px solid #dddddd;
+    border-top-color: #009578;
+    border-radius: 50%;
+    animation: loading 0.75s ease infinite;
+  }
+  
+  @keyframes loading {
+    from {
+      transform: rotate(0turn);
+    }
+    to {
+      transform: rotate(1turn);
+    }
+  }
+
+body{
+    font-family: 'Lato', sans-serif;
+    background-color:honeydew;
+}
+
+.section{
+    /* padding: 15px; */
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: none;
+    padding-top: 25px;
+}
+.section ul{
+    list-style-type: none;
+    overflow: hidden;
+
+}
+.section li{
+    float: left;
+    margin-right: 50px;
+    text-decoration: none;
+}
+.section li a{
+    text-decoration: none;
+    color: black;
+}
+
+.sec{
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: none;
+    /* padding-top: 15px; */
+    margin-top: 0px;
+}
+.sec ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+.sec li{
+    float: right;
+    margin-right: 50px;
+    text-decoration: none;
+}
+.sec li a{
+    text-decoration: none;
+    color: black;
+}
+
+.hero{
+    padding-top: 150px;
+}
+.sec2{
+    font-size: 30px;
+    
+    display: flex;
+    justify-content: center;
+    
+}
+.sec2 li a{
+    text-decoration: none;
+    color: black;
+}
+
+.sec2 ul{
+    list-style-type: none;
+}
+
+.sec2 li{
+    float:left;
+    margin: 50px;
+    
+    
+}
+
+
+.main{
+    background-image: url('https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F0a%2F21%2F0a215228f00f4564dc1b67fe45af193bfa80c3b2.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]');
+    background-size: cover;
+}
