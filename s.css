@@ -120,5 +120,41 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.container{
+    background-color: rgba(250, 232, 210, 0.89);
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.innercont{
+    background-color: aquamarine;
+    margin: 2%;
+    padding: 2%;
+    
+}
+
+.headings{
+    align-items: center;
+    font-size: medium;
+    padding: 5px;
+}
+
+.innertxt{
+    align-items: center;
+    font-size: small;
+}
+
+.txtinp{
+    border: 1px solid #d0d0d0;
+    border-radius: 0; 
+    box-sizing: border-box;
+    color: #222;
+    font-size: 16px;
+    letter-spacing: normal;
+    margin: 0;
+    padding: 14px 25px 14px 10px;
+    width: 100%;
+}
 
   
