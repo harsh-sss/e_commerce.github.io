@@ -121,17 +121,16 @@ body{
 }
 
 .container{
-    background-color: rgba(250, 232, 210, 0.89);
     display: flex;
     justify-content: center;
     margin: auto;
 }
 
 .innercont{
-    background-color: aquamarine;
+    background-color:#FFF;
     margin: 2%;
     padding: 2%;
-    
+    width: 50%;    
 }
 
 .headings{
@@ -155,6 +154,23 @@ body{
     margin: 0;
     padding: 14px 25px 14px 10px;
     width: 100%;
+    margin: 5%;
+    margin-left: 0%;
 }
 
-  
+.maincont{
+    align-items: center;
+}
+
+.btn{
+    background-color: #222;
+    color: #FFF;
+    border: 1px solid rgb(0, 0, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.innertxt{
+    margin: 5%;
+    margin-left: 0%;
+    font-size: medium;
+}
