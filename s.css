@@ -174,3 +174,33 @@ body{
     margin-left: 0%;
     font-size: medium;
 }
+
+.dropdown {
+  display: none;
+  position: absolute;
+  background-color: white;
+  border: 1px solid black;
+  padding: 0.5em;
+  list-style: none;
+  width: 200px;
+  height: 3000px;
+}
+
+/* Show the dropdown menu when the list item is clicked */
+li:hover .dropdown {
+  display: block;
+}
+
+/* Style the links in the dropdown menu */
+.dropdown a {
+  display: block;
+  padding: 0.5em;
+  color: black;
+  text-decoration: none;
+}
+
+/* Style the links when they are hovered over */
+.dropdown a:hover {
+  background-color: grey;
+  color: white;
+}
