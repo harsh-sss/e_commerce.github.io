@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="lgsheet.css">
+  <title>LOGIN</title>
+</head>
+<body>
+    <section>
+        <div class="form-box">
+            <div class="form-value">
+                <form id="login-form">
+                    <h2>Login</h2>
+                    <div class="inputbox">
+                        <ion-icon name="mail-outline"></ion-icon>
+                        <input type="email" name="email" required>
+                        <label for="">Email</label>
+                    </div>
+                    <div class="inputbox">
+                        <ion-icon name="lock-closed-outline"></ion-icon>
+                        <input type="password" name="password" required>
+                        <label for="">Password</label>
+                    </div>
+                    <div class="forget">
+                        <label for=""><input type="checkbox">Remember Me  <a href="#">Forget Password</a></label>
+                      
+                    </div>
+                    <button type="submit">Log in</button>
+                    <div class="register">
+                        <p>Don't have a account <a href="#">Register</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script>
+        console.log(document.getElementsByName('email'));
+        document.getElementById('login-form').addEventListener('submit', function(event) {
+        event.preventDefault(); // prevent form from submitting normally
+        
+        var email = document.getElementsByName('email')[0].value;
+        var password = document.getElementsByName('password')[0].value;
+        
+        // Define email and password in JavaScript code
+        var correctEmail = 'parthgala@gmail.com';
+        var correctPassword = '12345';
+        
+        // Check if email and password are correct
+        if (email === correctEmail && password === correctPassword) {
+          // Redirect to home.html if login is successful
+          window.location.href = 'index.html';
+        } else {
+          alert('Incorrect email or password.');
+        }
+      }
+      );
+        </script>
+</body>
+</html>

@@ -11,7 +11,7 @@ section{
     min-height: 100vh;
     width: 100%;
     
-    background: url('https://c4.wallpaperflare.com/wallpaper/71/196/981/digital-art-minimalism-nature-hills-wallpaper-preview.jpg')no-repeat;
+    background: url('https://wallpaper.dog/large/5464522.jpg')no-repeat;
     background-position: center;
     background-size: cover;
 }
@@ -30,7 +30,7 @@ section{
 }
 h2{
     font-size: 2em;
-    color: #fff;
+    color: #000;
     text-align: center;
 }
 .inputbox{

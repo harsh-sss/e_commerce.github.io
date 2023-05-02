@@ -109,7 +109,34 @@ body{
     
 }
 
-
+.dropdown {
+    display: none;
+    position: absolute;
+    right: 3%;
+    background-color: white;
+    border: 1px solid black;
+    padding: 0.5em;
+    list-style: none;
+    width: 300px;
+    height: 400px;
+  }
+  
+  li:hover .dropdown {
+    display: block;
+  }
+  
+  .dropdown a {
+    display: block;
+    padding: 0.5em;
+    color: black;
+    text-decoration: none;
+  }
+  
+  .dropdown a:hover {
+    background-color: grey;
+    color: white;
+  }
+  
 .main{
     background-image: url('https://lp2.hm.com/hmgoepprod?set=quality%5B79%5D%2Csource%5B%2F0a%2F21%2F0a215228f00f4564dc1b67fe45af193bfa80c3b2.jpg%5D%2Corigin%5Bdam%5D%2Ccategory%5B%5D%2Ctype%5BLOOKBOOK%5D%2Cres%5Bm%5D%2Chmver%5B1%5D&call=url[file:/product/main]');
     background-size: cover;
