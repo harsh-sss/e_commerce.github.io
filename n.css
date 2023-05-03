@@ -1,0 +1,79 @@
+
+.iii{
+    display: flex;
+    justify-content: center;
+}
+
+.her{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 50px;
+}
+.her-1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 5px;
+    padding-right: 385px;
+}
+
+.her-2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-right: 28px;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 50px;
+    font-weight: 700;
+    font-size: larger;
+}
+
+.inp{
+    padding-top: 10px;
+}
+
+
+.em{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 500px;
+}
+
+.pi{
+    padding-right: 300px;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    right: 3%;
+    background-color: white;
+    border: 1px solid black;
+    padding: 0.5em;
+    list-style: none;
+    width: 300px;
+    height: 400px;
+  }
+  
+  li:hover .dropdown {
+    display: block;
+  }
+  
+  .dropdown a {
+    display: block;
+    padding: 0.5em;
+    color: black;
+    text-decoration: none;
+  }
+  
+  .dropdown a:hover {
+    background-color: grey;
+    color: white;
+  }
+  
