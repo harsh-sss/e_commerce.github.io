@@ -1,0 +1,110 @@
+.bggvid{
+    position:absolute;
+    right: 0;
+    bottom: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+/* 
+@media (max-aspect-ratio: 16/9){
+    .bggvid{
+        width: auto;
+        height: 100%;
+    }
+} */
+
+.headings{
+    text-align: center;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.head1{
+    margin: 40px auto;
+  
+  font-size: 40px;
+  font-weight: bold;
+  color: #CFC547;
+  text-align: center;
+  letter-spacing: 5px;
+  text-shadow: 10px 10px 25px rgb(81,67,21),
+    -10px 10px 25px rgb(81,67,21),
+    -10px -10px 25px rgb(81,67,21),
+    10px -10px 25px rgb(81,67,21);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+    width: 300px;
+    padding-top: 100px;
+    background-color: azure;    
+}
+
+.form-label{
+    color: black
+}
+
+
+
+/* CSS */
+.button-36 {
+  background-image: linear-gradient(92.88deg, #CFC547 9.16%, #CFC547 43.89%, #CFC547 64.72%);
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  flex-shrink: 0;
+  font-family: "Inter UI","SF Pro Display",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  height: 2rem;
+  padding-top: 20px;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+  transition: all .5s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-36:hover {
+  box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
+  transition-duration: .1s;
+}
+
+@media (min-width: 768px) {
+  .button-36 {
+    padding: 0 2.6rem;
+  }
+}
+
+
+.img-1{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-left: 250px;
+  
+}
+
+.hmbt{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 50px;
+  
+}
+
+.hmbt1{
+  background: linear-gradient(to top right, #ffff00 0%, #ff99cc 100%);
+  border-radius: 10px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-weight: 400;
+}
