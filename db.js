@@ -1,4 +1,3 @@
-// Initialize Firebase (ADD YOUR OWN DATA)
 const firebaseConfig = {
     apiKey: "AIzaSyD4w-O-ugqmNyKfanFXFlATsSs4UhAwEpU",
     authDomain: "uptherocket-1a06c.firebaseapp.com",
