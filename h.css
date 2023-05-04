@@ -138,8 +138,7 @@ body{
 
 .dropdown {
     display: none;
-    position: absolute;
-    right: 3%;
+    position: sticky;
     background-color: white;
     border: 1px solid black;
     padding: 0.5em;
